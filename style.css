@@ -1,105 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Whisper&display=swap');
 
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 
 }
 
-body{
-  background:linear-gradient( 0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   font-family: 'Dancing Script', cursive, sans-serif;
 }
 
 /* nav bar */
 
-ul{
+ul {
   list-style: none;
   margin-right: 20px;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.logo{
+.logo {
   align-items: center;
-  gap:10px;
+  gap: 10px;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-a{
+a {
   text-decoration: none;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
   color: #f69d3c;
 }
 
-.nav-bar{
-  justify-content:space-between;
+.nav-bar {
+  justify-content: space-between;
   align-items: center;
   background-color: rgba(45, 2, 238, 0.205);
 }
 
-.logo img{
-width:50px;
-border-radius: 50px;
-margin-left:50px;
-margin-top: 5px;
+.logo img {
+  width: 50px;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-top: 5px;
 
 }
 
-.list{
-  gap:30px;
-  font-size:1.8rem;
+.list {
+  gap: 30px;
+  font-size: 1.8rem;
 }
 
 /*header Section*/
 
-.header-content h1{
+.header-content h1 {
   font-weight: bolder;
   font-size: 3rem;
 }
-.header-content{
+
+.header-content {
   justify-content: space-around;
-  gap:80px;
+  gap: 80px;
   align-items: center;
   margin: 90px;
   font-family: 'Dancing Script', cursive, sans-serif;
   height: 400px;
-  text-align: center; 
+  text-align: center;
 }
 
 
-.books-quote p{
-  font-size:2.5rem;
+.books-quote p {
+  font-size: 2.5rem;
 }
 
-.quote img{
-width:600px;
-border-radius: 20px;
-box-shadow: 5px 5px rgb(132, 132, 228),7px 7px rgba(1, 181, 187, 0.479);
+.quote img {
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(132, 132, 228), 7px 7px rgba(1, 181, 187, 0.479);
 }
 
-#signup-btn{
+#signup-btn {
   font-size: 1.5rem;
-  margin:20px auto;
-  padding:5px;
-  width:130px;
+  margin: 20px auto;
+  padding: 5px;
+  width: 130px;
   border-radius: 10px;
   background-color: rgb(123, 123, 236);
-  font-family: 'Dancing Script', cursive;;
+  font-family: 'Dancing Script', cursive;
   font-weight: 700;
-  
+
 }
 
-#signup-btn:hover{
-cursor: pointer;
-background-color: #f69d3c;
-transition: 0.3 ease-in-out;
+#signup-btn:hover {
+  cursor: pointer;
+  background-color: #f69d3c;
+  transition: 0.3 ease-in-out;
+}
+
+
+/* section */
+
+.book-example {
+  padding: 20px
+}
+
+.example-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+
+.example-container img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border: 5px solid lightpink;
+}
+
+.examples {
+  width: 400px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.last-quote {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+  width: 50%;
+  border: 3px solid lightcoral;
+  border-radius: 15px;
+}
+
+/* footer */
+.footer-info {
+  margin: 30px;
+  padding: 40px;
+
+}
+
+.footer {
+  justify-content: center;
+  font-size: 2rem;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+.signup-btn {
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 5px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: rgb(123, 123, 236);
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
 }

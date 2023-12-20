@@ -1,0 +1,1 @@
+My new second assignment as beginner web developer.
